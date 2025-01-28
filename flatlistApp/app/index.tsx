@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 24,
-    padding: 10,
+    padding: 20,
   },
 });
