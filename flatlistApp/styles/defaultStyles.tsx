@@ -11,6 +11,9 @@ const defaultStyles = StyleSheet.create({
   titleContainer: {
     backgroundColor: colors.primary,
     padding: 10,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomLeftRadius: 0,
   },
   textContainer: {
     padding: 10,
@@ -30,7 +33,8 @@ const defaultStyles = StyleSheet.create({
     backgroundColor: colors.primary,
     paddingVertical: 10,
     paddingHorizontal: 20,
-    borderRadius: 5,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
     alignItems: "center",
   },
   buttonText: {
